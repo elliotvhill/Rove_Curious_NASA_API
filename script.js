@@ -23,6 +23,7 @@ button.addEventListener('click', async () => {
         let response = await axios.get(`https://images-api.nasa.gov/search?q=curiosity-mars-mastcam&media_type=image`)
         let mastCamArray = response.data.collection.items[randomNum]
         let mastCamTitle = mastCamArray.data[0].title
+        console.log(mastCamTitle)
         roverPicTitle.innerHTML = `<h3>${mastCamTitle}</h3>`
         let mastCamPic = mastCamArray.links[0].href
         marsRoverPic.innerHTML = `<img src="${mastCamPic}" />`
