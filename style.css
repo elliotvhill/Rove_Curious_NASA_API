@@ -10,4 +10,9 @@ body {
 img {
     max-width: 80%;
     margin: 4rem;
+    display: block;
+}
+
+header {
+    margin: 0 auto;
 }
