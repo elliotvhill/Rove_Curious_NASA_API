@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 80%;
+    margin: 4rem;
+}
