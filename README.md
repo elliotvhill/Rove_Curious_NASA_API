@@ -1,6 +1,6 @@
 # u1_JS_project_NASA
 
-![An artist rendering of NASA's Curiosity rover on the surface of Mars.](https://github.com/elliotvhill/u1_JS_project_NASA/assets/images/mars-curiosity.jpeg)
+![An artist rendering of NASA's Curiosity rover on the surface of Mars.](https://github.com/elliotvhill/u1_JS_project_NASA/blob/3da177e9084cf6fbebd8803659d1ff619854c2c3/mars-curiosity.jpeg)
 
 ## Pull a picture from the Mars Curiosity rover
 Users can click a button to pull a random picture from the Curiosity rover library. The images are all from the rover's Mast camera -- . The page will also show the title of the photo, a brief description, as well as other information.

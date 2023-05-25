@@ -15,21 +15,45 @@ body {
     max-width: 50rem;
 }
 
-nav {
+.nav-bars {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: .5s;
+}
+
+/* nav {
     overflow: hidden;
     position: relative;
     display: flex;
     justify-content: flex-end;
-}
+    &:active{
+        visibility: visible;
+        display: block;
+    }
+} */
 
 
 li a {
     text-decoration: none;
     color: rgb(211, 84, 0);
+    display: block;
+    transition: .3s;
 }
 
 ul {
     list-style: none;
+    display: none;
+    &::before{
+        opacity: 0;
+    }
+    &::after{
+        opacity: 1;
+    }
 }
 
 p {
@@ -50,6 +74,20 @@ header {
     font-size: 1.2rem;
 }
 
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(46, 64, 83);
+    font-size: 1.7rem;
+}
+
+iframe {
+    max-width: 80%;
+    max-height: 50%;
+}
+
 button {
     display: block;
     margin: 10px auto 20px auto;
@@ -62,6 +100,7 @@ button {
 
 button:hover {
     box-shadow: 0 0 1rem rgb(46, 64, 83);
+    border: 1px solid rgba(46, 64, 83, 50%);
 }
 
 div {
@@ -84,6 +123,21 @@ div {
     font-weight: 600;
     padding: .5rem;
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
 
 
 

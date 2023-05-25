@@ -19,33 +19,23 @@
 <div class="container">
     <header>
         <h1> View Mars from Curiosity's point of view! </h1>
-        <nav class="nav-bars" id="sidenav">
+        <!-- <nav class="nav-bars">
             <ul id="links">
                 <li><a href="#home"><i class="fa-solid fa-shuttle-space"></i></a></li>
-                <li><a href="/weather.html"> Mars Weather </a></li>
+                <li><a href="#more"> Mars Weather </a></li>
                 <li><a href="https://mars.nasa.gov/msl/mission/overview/" target="_blank"> NASA Mars Mission </a></li>
                 <li><a href="#about"> About </a></li>
             </ul>
-            <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
-        </nav>
+            <a href="javascript:void(0);" class="icon" onclick="navMenu()"></a>
+            <i class="fa-solid fa-bars"></i>
+        </nav> -->
     </header>
 
-    <div class="main-content">
-        <div id="intro">
-            <p>Use the button below to find a random photo from the mast camera of NASA's Mars Curiosity rover:</p>
-        </div>
-        <button id="search"> Find me a Curiosity pic! </button>
-        <div id="pic-title"></div>
-        <div id="blurb"></div>
-        <div id="roverPic"></div>
-        <div id="description"></div>
+    <div class="mars-weather">
+        <h3> Curiosity's Weather Report </h3>
+        <!-- <button id="weather"> Current Weather on Mars </button> -->
+        <iframe src='https://mars.nasa.gov/layout/embed/image/mslweather/' width='800' height='530'  scrolling='no' frameborder='0'></iframe>
     </div>
-    <!-- <div class="other-content">
-        <button id="weather"> Current Weather on Mars </button>
-        <div class="mars-weather">
-            <iframe src='https://mars.nasa.gov/layout/embed/image/mslweather/' width='800' height='530'  scrolling='no' frameborder='0'></iframe>
-        </div>
-    </div> -->
 
 </div>
 </body>
