@@ -9,8 +9,11 @@ _[Link to Trello board](https://trello.com/b/BA185fty/u1-project)_
 
 ## About Curiosity
 [Learn more about Curiosity on NASA's site!](https://mars.nasa.gov/msl/home/)
+Curiosity launched on November 26, 2011 and landed on Mars at 1:32 a.m. EDT on August 6, 2012.
 
 ## Credits
-* [Technical Notes on Mars Solar Time](https://www.giss.nasa.gov/tools/mars24/help/notes.html) – NASA Goddard Institute for Space Studies
+<!-- * [Technical Notes on Mars Solar Time](https://www.giss.nasa.gov/tools/mars24/help/notes.html) – NASA Goddard Institute for Space Studies -->
+* [NASA: Curiosity mission page](https://mars.nasa.gov/msl/mission/overview/)
 * [NASA API portal](https://api.nasa.gov/)
 * [HTML Color Codes](https://htmlcolorcodes.com/color-chart/)
+* [W3 Schools](https://www.w3schools.com/)
