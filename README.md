@@ -1,4 +1,4 @@
-# u1_JS_project_NASA
+# Photos from NASA's Curiosity Mars Rover
 
 ![An artist rendering of NASA's Curiosity rover on the surface of Mars.](https://github.com/elliotvhill/u1_JS_project_NASA/blob/3da177e9084cf6fbebd8803659d1ff619854c2c3/mars-curiosity.jpeg)
 
