@@ -1,3 +1,8 @@
+
+
+
+
+
 const apiKey = 'c0k0WgD2uCtdB03NGxld02oBokOdV9SUgKLpRhow'
 let urlApi = 'https://images-api.nasa.gov/search?q=curiosity-mars-mastcam&media_type=image'
 const mainContent = document.querySelector('.main-content')
