@@ -96,6 +96,8 @@ button {
     border-radius: .5rem;
     color: rgb(187, 35, 35);
     background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
 }
 
 button:hover {
