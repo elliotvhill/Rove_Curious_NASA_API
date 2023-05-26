@@ -15,29 +15,6 @@ body {
     max-width: 50rem;
 }
 
-.nav-bars {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    overflow-x: hidden;
-    transition: .5s;
-}
-
-/* nav {
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    &:active{
-        visibility: visible;
-        display: block;
-    }
-} */
-
-
 li a {
     text-decoration: none;
     color: rgb(211, 84, 0);

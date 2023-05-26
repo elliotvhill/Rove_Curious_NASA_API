@@ -37,15 +37,6 @@ searchButton.addEventListener('click', async () => {
         marsRoverPic.innerHTML = `<img src="${mastCamPic}" />`
         let mastCamBlurb = mastCamArray.data[0].description_508
         blurb.innerHTML = `<p>${mastCamBlurb}</p>`
-        // let longerDescription = mastCamArray.data[0].description
-        // description.innerHTML = `<p>${longerDescription}</p>`
-
-
-
-
-
-
-
 
 
 
