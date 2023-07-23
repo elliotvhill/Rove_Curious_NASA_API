@@ -1,8 +1,3 @@
-
-
-
-
-
 const apiKey = 'c0k0WgD2uCtdB03NGxld02oBokOdV9SUgKLpRhow'
 let urlApi = 'https://images-api.nasa.gov/search?q=curiosity-mars-mastcam&media_type=image'
 const mainContent = document.querySelector('.main-content')
@@ -13,7 +8,6 @@ const description = document.querySelector('#description')
 const roverPicTitle = document.querySelector('#pic-title')
 const weatherButton = document.querySelector('mars-weather')
 
-
 function navMenu() {
     let menu = document.getElementById('#links')
     if (menu.style.display === 'block') {
@@ -22,7 +16,6 @@ function navMenu() {
         menu.style.display === 'block'
     }
 }
-
 
 document.addEventListener("DOMContentLoaded", (event) => {
     marsRoverPic.style.visibility = 'hidden';
@@ -42,18 +35,12 @@ searchButton.addEventListener('click', async () => {
         marsRoverPic.innerHTML = `<img src="${mastCamPic}" />`
         let mastCamBlurb = mastCamArray.data[0].description_508
         blurb.innerHTML = `<p>${mastCamBlurb}</p>`
-
-
-
 })
 
-
-
-
-
-
-
-
-
-
-
+// FOOTER
+const currentYear = new Date().getFullYear()
+const footerDate = () => {
+  return currentYear
+}
+let copyright = document.querySelector("#year")
+copyright.innerHTML = `<p>&copy; ${currentYear} Elliot Hill</p>`

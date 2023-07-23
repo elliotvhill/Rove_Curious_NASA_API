@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/db1ff0de8c.js" crossorigin="anonymous"></script>
-    <title> Curiosity Rover </title>
-    <link rel="icon" type="image/png" href="/mars-icon.png" />
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Righteous&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/db1ff0de8c.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Curiosity Rover</title>
+        <link rel="icon" type="image/png" href="/mars-icon.png" />
+    </head>
 
-<body>
-<div class="container">
-    <header>
-        <h1> View Mars from Curiosity's point of view! </h1>
-    </header>
+    <body>
+        <div class="container">
+            <header>
+                <h1>View Mars from Curiosity's point of view!</h1>
+            </header>
 
-    <div class="main-content">
-        <div id="intro">
-            <p>Use the button below to find a random photo from the mast camera of NASA's Mars Curiosity rover:</p>
+            <div class="main-content">
+                <div id="intro">
+                    <p>
+                        Use the button below to find a random photo from the
+                        mast camera of NASA's Mars Curiosity rover:
+                    </p>
+                </div>
+                <button id="search">Find me a Curiosity pic!</button>
+                <div id="pic-title"></div>
+                <div id="blurb"></div>
+                <div id="roverPic"></div>
+                <div id="description"></div>
+            </div>
         </div>
-        <button id="search"> Find me a Curiosity pic! </button>
-        <div id="pic-title"></div>
-        <div id="blurb"></div>
-        <div id="roverPic"></div>
-        <div id="description"></div>
-    </div>
-
-</div>
-</body>
+        <footer>
+            <div id="year"></div>
+        </footer>
+    </body>
 </html>
